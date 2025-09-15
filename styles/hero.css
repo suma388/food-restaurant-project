@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", sans-serif; */
+
+*{
+    margin: 0;padding: 0;
+}
+.btn-container{
+    text-align: center;
+}
+.btn{
+    padding: 18px 24px 18px 24px;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    background: rgba(82, 195, 3, 1);
+font-family: Work Sans;
+font-size: 17px;
+font-weight: 600;
+line-height: 80%;
+letter-spacing: 0%;
+border: none;
+cursor: pointer;
+}
+
+
+.hero{
+    background: linear-gradient(0.00deg, rgba(9.197244644165039, 8.92899227142334, 8.92899227142334, 1),rgba(16, 16, 16, 0) 100%),url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 919px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero .hero-content{
+    width: 716px;
+}
+
+.hero .hero-content .sabtitle{
+    opacity: 0.8;
+    color: rgba(255, 255, 255, 1);
+
+font-family: Work Sans;
+font-size: 22px;
+font-weight: 600;
+line-height: 80%;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 10px;
+}
+
+.hero .hero-content .title{
+    color: rgba(255, 255, 255, 1);
+
+font-family: Work Sans;
+font-size: 50px;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 17px;
+}
+
+.hero .hero-content .discription{
+    opacity: 0.7;
+    color: rgba(255, 255, 255, 1);
+
+font-family: Work Sans;
+font-size: 12px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 20px;
+}
+
+#card-box{
+    width: 924px;
+    margin: 50px auto;
+}
+
+#card-box .title{
+    color: rgba(16, 16, 16, 1);
+
+font-family: Work Sans;
+font-size: 29px;
+font-weight: 700;
+line-height: 34px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+#card-box .subtitle{
+    color: rgba(16, 16, 16, 1);
+
+font-family: Work Sans;
+font-size: 15px;
+font-weight: 500;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+}
+.card-containar{
+    margin-top: 33px;
+    font-family: Work Sans;
+}
+.card {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.card .img-box{
+    width:250px;
+}
+.card .img-box img{
+    width: 100%;
+}
+.card .shop{
+    text-align: center;  
+}
+.card .shop{
+    padding: 14px 22px 14px 22px;
+    border-radius: 5px;
+    background: rgba(82, 195, 3, 0.15);
+}
+.card-containar{
+    display: flex;
+    justify-content: space-between;
+}
+/* section-2 styles */
+.media .containar{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.media .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 10px 30px 10px;
+}
+.media .img-box{
+    /* width: 672px; */
+}
+.media .text h1{
+    color: rgba(16, 16, 16, 1);
+
+font-family: Work Sans;
+font-size: 33px;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0%;
+text-align: center;
+}
+.media .text p{
+    color: rgba(16, 16, 16, 1);
+
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.6;
+}
